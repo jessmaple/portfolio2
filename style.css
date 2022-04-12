@@ -7,7 +7,7 @@ html, body {
       height: 100%;
       font-family: "Roboto Mono" !important;
       background: #ffa8b7 !important;
-      color: #fff !important;
+      color: #e83b1e !important;
 }
 
 .whitespace {
@@ -26,7 +26,7 @@ html, body {
       width: 24em;
       top: 50%;
       margin: auto;
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      border-right: 2px solid rgba(232, 59, 30, 1);
       text-align: center;
       white-space: nowrap;
       overflow: hidden;
@@ -60,7 +60,7 @@ html, body {
 
 @keyframes blinkTextCussor {
       from {
-            border-right-color: rgba(255, 255, 255, 0.75);
+            border-right-color: rgba(232, 59, 30, 1);
       }
       to {
             border-right-color: transparent;
@@ -85,7 +85,7 @@ nav #brand {
 }
 
 nav #brand a {
-      color: #fff;
+      color: #e83b1e;
       transition: all 0.3s ease-out;
 }
 
@@ -114,7 +114,7 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color: #fff;
+      color: #e83b1e;
 }
 
 nav #menu li a:hover {
@@ -262,8 +262,8 @@ nav #menu li a:hover {
       text-shadow: 0;
       width: 13px;
       height: 13px;
-      border-bottom: 2px solid #fff;
-      border-right: 2px solid #fff;
+      border-bottom: 2px solid #e83b1e;
+      border-right: 2px solid #e83b1e;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
       animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
